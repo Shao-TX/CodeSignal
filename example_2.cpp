@@ -16,7 +16,6 @@ int centuryFromYear(int year)
     }
 }
 
-
 int main()
 {
     int year, century;
@@ -27,4 +26,6 @@ int main()
     century = centuryFromYear(year);        
 
     std::cout << "Century of year you input is " << century;
+
+    return 0;
 }
