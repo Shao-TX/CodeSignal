@@ -1,0 +1,12 @@
+input : n = 3
+
+  O
+ OXO
+OXOXO
+ OXO
+  O
+
+O :  n * n = 3 * 3
+X : (n - 1) * (n - 1) = 2 * 2
+
+output = 3 * 3 + 2 * 2 = 13
