@@ -22,7 +22,7 @@ int main()
     int output, array_len, array_value;
     std::vector<int> input;
 
-    std::cout << "How long the array you want to input(1 <= length <= 10) : ";
+    std::cout << "Please input the length of array(1 <= length <= 10) : ";
     std::cin >> array_len;
 
     for(int i = 0; i < array_len; i++)
